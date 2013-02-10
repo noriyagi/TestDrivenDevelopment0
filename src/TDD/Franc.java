@@ -1,8 +1,8 @@
 package TDD;
 
-class Dollar extends Money{
+class Franc extends Money{
 	
-	Dollar(int amount, String currency){
+	Franc(int amount, String currency){
 		super(amount, currency);
 	}
 	Money times(int multiplier){
